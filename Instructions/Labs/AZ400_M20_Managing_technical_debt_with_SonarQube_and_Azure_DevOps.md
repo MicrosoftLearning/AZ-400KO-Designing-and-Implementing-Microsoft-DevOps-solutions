@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: SonarCloud 및 Azure DevOps를 사용하여 기술적인 문제 관리'
     module: '모듈 20: 코드베이스 유효성을 검사하여 규정 준수 확인'
