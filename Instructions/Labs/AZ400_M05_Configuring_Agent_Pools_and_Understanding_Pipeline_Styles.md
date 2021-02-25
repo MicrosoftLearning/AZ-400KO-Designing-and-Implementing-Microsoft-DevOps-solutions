@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: 에이전트 풀 구성 및 파이프라인 스타일 이해'
     module: '모듈 5: Azure Pipelines 구성'

@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure DevOps와 Teams 통합'
     module: '모듈 18: 시스템 피드백 메커니즘 구현'

@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Repos에서 Git를 사용하여 버전 제어'
     module: '모듈 2: 소스 제어 시작'

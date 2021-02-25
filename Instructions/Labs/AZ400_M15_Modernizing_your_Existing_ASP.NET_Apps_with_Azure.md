@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure를 사용하여 기존 ASP.NET 앱 현대화'
     module: '모듈 15: Docker를 사용하여 컨테이너 관리'

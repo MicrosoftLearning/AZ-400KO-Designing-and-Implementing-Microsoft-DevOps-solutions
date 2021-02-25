@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Artifacts로 패키지 관리'
     module: '모듈 9: 종속성 관리 전략 디자인 및 구현'

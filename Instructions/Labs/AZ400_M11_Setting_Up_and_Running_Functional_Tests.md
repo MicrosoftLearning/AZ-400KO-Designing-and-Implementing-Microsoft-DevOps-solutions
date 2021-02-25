@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: 기능 테스트 설정 및 실행'
     module: '모듈 11: Azure Pipelines를 사용하여 연속 배포 구현'

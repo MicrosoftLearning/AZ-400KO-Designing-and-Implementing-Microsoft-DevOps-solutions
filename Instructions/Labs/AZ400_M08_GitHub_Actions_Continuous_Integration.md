@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: GitHub Actions 연속 통합'
     module: '모듈 8: GitHub Actions를 사용하여 연속 통합 구현'
