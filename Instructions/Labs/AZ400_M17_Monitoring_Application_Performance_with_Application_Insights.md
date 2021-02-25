@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Application Insights를 사용하여 애플리케이션 성능 모니터링'
     module: '모듈 17: 개발 팀의 피드백 구현'
