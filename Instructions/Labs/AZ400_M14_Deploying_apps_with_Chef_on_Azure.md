@@ -1,7 +1,7 @@
 ﻿---
 lab:
     title: '랩: Azure에서 Chef를 사용하여 앱 배포'
-    az400Module: '모듈 14: Azure에서 사용 가능한 타사 IaC(코드형 인프라) 도구'
+    module: '모듈 14: Azure에서 사용 가능한 타사 IaC(코드형 인프라) 도구'
 ---
 
 # 랩: Azure에서 Chef를 사용하여 앱 배포
@@ -15,7 +15,7 @@ Chef는 다음과 같은 배포 옵션을 지원합니다.
 
 - Chef Server로 구성된 지원 대상 Linux 배포. 표준 Ubuntu 이미지 기반 Azure VM을 이러한 용도로 사용할 수 있습니다.
 - 미리 구성된 Chef Automate 이미지. Chef Automate 이미지 기반 Azure VM을 배포할 수 있습니다. 해당 이미지에 Chef Server가 포함됩니다.
-- 호스트형 Chef Server. https://manage.chef.io에서 호스트형 Chef Server에 가입한 다음 호스트형 서버를 사용하여 Chef 환경을 구성할 수 있습니다.
+- 호스트형 Chef Server. https://manage.chef.io 에서 호스트형 Chef Server에 가입한 다음 호스트형 서버를 사용하여 Chef 환경을 구성할 수 있습니다.
 
 이 랩에서는 Chef Automate 이미지 기반 Azure VM을 배포하고 30일 무료 평가판 라이선스를 사용합니다. 
 
@@ -280,7 +280,7 @@ https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.github
 
     >**참고**: 다음으로는 [Microsoft Parts Unlimited MRP GitHub 리포지토리](https://raw.githubusercontent.com/Microsoft/PartsUnlimitedMRP/master/Labfiles/AZ-400T05-ImplemntgAppInfra/Labfiles/M04/DeployusingChef/final/default.rb)에서 **default.rb** 레시피의 전체 내용을 복사해야 합니다.
 
-1.  랩 컴퓨터에서 다른 웹 브라우저 창을 시작하고 **https://raw.githubusercontent.com/Microsoft/PartsUnlimitedMRP/master/Labfiles/AZ-400T05-ImplemntgAppInfra/Labfiles/M04/DeployusingChef/final/default.rb**로 이동하여 **default.rb** 레시피를 RAW 형식으로 표시한 다음 웹 페이지의 내용을 클립보드에 복사합니다.
+1.  랩 컴퓨터에서 다른 웹 브라우저 창을 시작하고 **https://raw.githubusercontent.com/Microsoft/PartsUnlimitedMRP/master/Labfiles/AZ-400T05-ImplemntgAppInfra/Labfiles/M04/DeployusingChef/final/default.rb** 로 이동하여 **default.rb** 레시피를 RAW 형식으로 표시한 다음 웹 페이지의 내용을 클립보드에 복사합니다.
 1.  **관리자: ChefDK** PowerShell 창에서 다음 명령을 실행하여 **C:\\Labfiles\\chef\\chef-repo\\cookbooks\\mrpapp\\recipes\\default.rb** 파일을 메모장에서 엽니다.
 
     ```powershell

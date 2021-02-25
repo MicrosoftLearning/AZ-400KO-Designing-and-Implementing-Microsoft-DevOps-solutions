@@ -1,7 +1,7 @@
 ﻿---
 lab:
     title: '랩: Azure에서 Puppet을 사용하여 앱 배포'
-    az400Module: '모듈 14: Azure에서 사용 가능한 타사 IaC(코드형 인프라) 도구'
+    module: '모듈 14: Azure에서 사용 가능한 타사 IaC(코드형 인프라) 도구'
 ---
 
 # 랩: Azure에서 Puppet을 사용하여 앱 배포
@@ -82,8 +82,8 @@ https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.github
 
 1.  Azure Portal의 **사용자 지정 배포** 블레이드에서 **템플릿 편집**을 클릭합니다.
 1.  **템플릿 편집** 블레이드의 템플릿 개요 창에서 **변수** 섹션을 확장하고 **vmSize**를 클릭합니다.
-1.  템플릿 세부 정보 섹션에서 `"pmVmSize": "Standard_D2_V2",`를 "vmSize": "Standard_D2s_v3",`으로 변경합니다.
-1.  템플릿 세부 정보 섹션에서 `"mrpVmSize": "Standard_A2",`를 "vmSize": "Standard_D2s_v3",`으로 변경하고 **저장**을 클릭합니다.
+1.  템플릿 세부 정보 섹션에서 `"pmVmSize": "Standard_D2_V2",`를 `"vmSize": "Standard_D2s_v3",`으로 변경합니다.
+1.  템플릿 세부 정보 섹션에서 `"mrpVmSize": "Standard_A2",`를 `"vmSize": "Standard_D2s_v3",`으로 변경하고 **저장**을 클릭합니다.
 1.  **사용자 지정 배포** 블레이드로 돌아와서 다음 설정을 지정합니다. 그 외의 설정은 기본값으로 유지합니다.
 
     | 설정 | 값 |
@@ -188,7 +188,7 @@ https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.github
 
     >**참고**: The Forge의 mongodb 및 tomcat 모듈은 공식 지원 모듈입니다. wget 모듈은 공식 지원되지 않는 사용자 모듈입니다. accounts 모듈은 Linux에서 사용자와 그룹을 만들고 관리하는 데 필요한 클래스를 Puppet에 제공합니다. 마지막으로 java 모듈은 추가 Java 기능을 Puppet에 제공합니다.
 
-    >**참고**: 다음으로는 Puppet 마스터의 **modules** 디렉터리에 사용자 지정 모듈 **mrpapp***를 만듭니다. 이 사용자 지정 모듈이 PU MRP 앱을 구성합니다. 
+    >**참고**: 다음으로는 Puppet 마스터의 **modules** 디렉터리에 사용자 지정 모듈 **mrpapp**를 만듭니다. 이 사용자 지정 모듈이 PU MRP 앱을 구성합니다. 
 
 1.  Puppet 마스터로 연결되는 PuTTY 세션에서 다음 명령을 실행하여 현재 디렉터리를 **etc/puppetlabs/code/environments/production/modules**로 변경합니다.
 
@@ -208,7 +208,7 @@ https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.github
 
     >**참고**: `ls -la` 명령을 사용하면 새 모듈이 작성되었는지를 확인할 수 있습니다. `ls -la` 명령을 실행하면 숨김 파일(`-a`)을 포함한 디렉터리의 콘텐츠가 긴 목록 형식(`-l`)으로 나열됩니다.
 
-    >**참고**: mrpapp 모듈은 노드 구성을 정의합니다. 프로덕션 환경의 노드 구성은 **site.pp** 파일에서 정의됩니다. **site.pp** 파일은 **manifests** 디렉터리에 있습니다. **pp** 파일 이름 확장명은 **Puppet Program(Puppet 프로그램)**의 머리글자어입니다. 여기서는 노드의 구성을 추가하여 **site.pp** 파일을 편집합니다.
+    >**참고**: mrpapp 모듈은 노드 구성을 정의합니다. 프로덕션 환경의 노드 구성은 **site.pp** 파일에서 정의됩니다. **site.pp** 파일은 **manifests** 디렉터리에 있습니다. **pp** 파일 이름 확장명은 **Puppet Program(Puppet 프로그램)** 의 머리글자어입니다. 여기서는 노드의 구성을 추가하여 **site.pp** 파일을 편집합니다.
 
 1.  Puppet 마스터로 연결되는 PuTTY 세션에서 다음 명령을 실행하여 Nano 텍스트 편집기에서 **site.pp**를 엽니다.
 
@@ -382,7 +382,7 @@ https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.github
 
     >**참고**: 여기서 잠시 `configurejava` 클래스를 살펴보겠습니다.
 
-    줄 2. `apt` 모듈을 포함합니다. 이 모듈을 사용하면 새 **PPA(개인 패키지 아카이브)**를 구성할 수 있습니다.
+    줄 2. `apt` 모듈을 포함합니다. 이 모듈을 사용하면 새 **PPA(개인 패키지 아카이브)** 를 구성할 수 있습니다.
     줄 3. 설치해야 하는 패키지 배열을 만듭니다.
     줄 5. **PPA**를 추가합니다.
     줄 6-8. 패키지가 설치되었는지 확인하도록 Puppet에 명령합니다. 그러면 Puppet이 배열을 확장하여 배열의 각 패키지를 설치합니다.

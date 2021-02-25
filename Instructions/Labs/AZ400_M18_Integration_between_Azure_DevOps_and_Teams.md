@@ -1,7 +1,7 @@
 ﻿---
 lab:
     title: '랩: Azure DevOps와 Teams 통합'
-    az400Module: '모듈 18: 시스템 피드백 메커니즘 구현'
+    module: '모듈 18: 시스템 피드백 메커니즘 구현'
 ---
 
 # 랩: Azure DevOps와 팀 간의 통합
@@ -9,7 +9,7 @@ lab:
 
 ## 랩 개요
 
-**[Microsoft Teams](https://teams.microsoft.com/start)**는 Office 365의 팀워크를 위한 허브입니다. Microsoft Teams에서는 팀의 모든 채팅, 모임, 파일, 앱을 한 곳에서 관리하고 사용할 수 있습니다. 또한 Office 365 및 Azure DevOps 전반에서 다양한 팀, 대화, 콘텐츠 및 도구를 활용할 수 있는 허브를 소프트웨어 개발 팀에 제공합니다.
+**[Microsoft Teams](https://teams.microsoft.com/start)** 는 Office 365의 팀워크를 위한 허브입니다. Microsoft Teams에서는 팀의 모든 채팅, 모임, 파일, 앱을 한 곳에서 관리하고 사용할 수 있습니다. 또한 Office 365 및 Azure DevOps 전반에서 다양한 팀, 대화, 콘텐츠 및 도구를 활용할 수 있는 허브를 소프트웨어 개발 팀에 제공합니다.
 
 이 랩에서는 Azure DevOps Services와 Microsoft Teams 간의 통합 시나리오를 구현합니다.
 
@@ -94,7 +94,7 @@ lab:
     >**참고**: 팀은 공통의 목표를 달성하기 위해 함께 작업을 하는 사용자 집합입니다. 
 
 1.  **팀 가입 또는 만들기** 창에서 **팀 만들기**를 클릭합니다.
-1.  **팀 만들기** 패널에서 *처음부터**를 클릭하고 **팀 종류** 패널에서 **비공개**를 클릭합니다.
+1.  **팀 만들기** 패널에서 **처음부터**를 클릭하고 **팀 종류** 패널에서 **비공개**를 클릭합니다.
 1.  **비공개 팀에 관한 일부 간단한 세부 정보** 패널에서 **팀 이름 지정**을 **Tailwind Traders**로 바꾸고 **만들기**를 클릭합니다.
 1.  **Tailwind Traders에 구성원 추가** 패널에서 **건너뛰기**를 클릭합니다.
 
@@ -213,7 +213,7 @@ lab:
  
     >**참고**: 빌드 파이프라인의 경우 채널이 **실행 스테이지 단계가 변경됨** 및 **실행 스테이지 승인 대기 중** 알림을 구독하게 됩니다.
 
-1.  랩 컴퓨터에서 Azure DevOps 포털의 **Tailwind Traders** 프로젝트가 표시된 웹 브라우저로 전환하여 Azure DevOps 포털 맨 왼쪽의 세로 메뉴 모음에 있는 **Pipelines**를 클릭합니다. 그런 다음 **파이프라인** 섹션에서 **릴리스**를 클릭하고 릴리스 목록에서 **Website-CD* 항목을 클릭한 후에 **Website-CD** 항목을 선택한 상태로 웹 브라우저 창에서 이 파이프라인의 URL을 클립보드에 복사합니다.
+1.  랩 컴퓨터에서 Azure DevOps 포털의 **Tailwind Traders** 프로젝트가 표시된 웹 브라우저로 전환하여 Azure DevOps 포털 맨 왼쪽의 세로 메뉴 모음에 있는 **Pipelines**를 클릭합니다. 그런 다음 **파이프라인** 섹션에서 **릴리스**를 클릭하고 릴리스 목록에서 **Website-CD** 항목을 클릭한 후에 **Website-CD** 항목을 선택한 상태로 웹 브라우저 창에서 이 파이프라인의 URL을 클립보드에 복사합니다.
 
     >**참고**: 이 URL은 `https://dev.azure.com/<organization_name>/Tailwind%20Traders/_release?_a=releases&view=mine&definitionId=2` 형식입니다. 여기서 `<organization_name>`은 Azure DevOps 조직의 이름을 나타내는 자리 표시자입니다.
 
@@ -232,7 +232,7 @@ lab:
 1.  **게시물** 탭을 선택한 상태로 **Tailwind Traders** 팀의 **일반** 채널에 `@Azure Pipelines subscriptions` 명령을 게시합니다. 그런 다음 **Azure Pipelines** 봇의 회신에서 **구독 추가**를 클릭합니다.
 1.  **Azure Pipelines** **구독 추가** 패널의 **이벤트 선택** 드롭다운 목록에서 **빌드 완료됨**이 선택되어 있는지 확인하고 **다음**을 클릭합니다.
 1.  **Azure Pipelines** **구독 추가** 패널의 **파이프라인 선택** 드롭다운 목록에서 **Website-CI**가 선택되어 있는지 확인하고 **다음**을 클릭합니다.
-1.  **Azure Pipelines** **구독 추가** 패널의 **빌드 상태** 드롭다운 목록에서 **[모두]**가 선택되어 있는지 확인하고 **제출**을 클릭합니다.
+1.  **Azure Pipelines** **구독 추가** 패널의 **빌드 상태** 드롭다운 목록에서 **[모두]** 가 선택되어 있는지 확인하고 **제출**을 클릭합니다.
 1.  **Azure Pipelines** **구독 추가** 패널에서 **확인**을 클릭하여 확인 메시지를 승인합니다.
 1.  **Azure Pipelines** **구독 보기** 패널에서 구독 목록을 검토하고 패널을 닫습니다.
 
@@ -287,7 +287,7 @@ lab:
 
     >**참고**: 이제 Microsoft Teams와 Azure DevOps를 연결했으므로 Microsoft Teams를 통해 아래와 같은 다른 유형의 정보를 표시할 수 있습니다. 
 
-    - [Teams에 OneNote Notebook 추가](https://support.office.com/ko-kr/article/Add-a-OneNote-notebook-to-Teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2): **스프린트 계획 회의**, **회고 회의 ** 등의 회의 메모를 보관할 수 있습니다. 
+    - [Teams에 OneNote Notebook 추가](https://support.office.com/ko-kr/article/Add-a-OneNote-notebook-to-Teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2): **스프린트 계획 회의**, **회고 회의** 등의 회의 메모를 보관할 수 있습니다. 
     - [Power BI에 Azure DevOps 연결](https://docs.microsoft.com/ko-kr/azure/devops/report/powerbi/?view=azure-devops) 및 [Power BI 탭 추가](https://support.office.com/ko-kr/article/add-a-powerbi-tab-to-teams-708ce6fe-0318-40fa-80f5-e9174f841918): Azure DevOps의 고급 보고서나 프로젝트 관련 기타 데이터가 표시되는 탭을 추가할 수 있습니다.
 
 ## 복습

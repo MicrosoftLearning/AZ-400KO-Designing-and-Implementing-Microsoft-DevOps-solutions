@@ -1,7 +1,7 @@
 ﻿---
 lab:
     title: '랩: Azure Kubernetes Service에 다중 컨테이너 애플리케이션 배포'
-    az400Module: '모듈 16: Kubernetes Service 인프라 만들기 및 관리'
+    module: '모듈 16: Kubernetes Service 인프라 만들기 및 관리'
 ---
 
 # 랩: Azure Kubernetes Service에 다중 컨테이너 애플리케이션 배포
@@ -9,7 +9,7 @@ lab:
 
 ## 랩 개요
 
-[**AKS(Azure Kubernetes Service)**](https://azure.microsoft.com/ko-kr/services/kubernetes-service/)는 Azure에서 Kubernetes를 사용하는 가장 빠른 방법입니다. **AKS(Azure Kubernetes Service)**는 호스팅된 Kubernetes 환경을 관리하므로 컨테이너 오케스트레이션에 대한 전문 지식이 없어도 컨테이너화된 애플리케이션을 간편하게 배포하고 관리할 수 있습니다. 그리고 컨테이너화된 워크로드의 가용성, 확장성, 유연성도 개선할 수 있습니다. 연속 빌드 및 배포 기능이 제공되는 Azure DevOps에서는 AKS 작업을 더욱 원활하게 진행할 수 있습니다. 
+[**AKS(Azure Kubernetes Service)**](https://azure.microsoft.com/ko-kr/services/kubernetes-service/)는 Azure에서 Kubernetes를 사용하는 가장 빠른 방법입니다. **AKS(Azure Kubernetes Service)** 는 호스팅된 Kubernetes 환경을 관리하므로 컨테이너 오케스트레이션에 대한 전문 지식이 없어도 컨테이너화된 애플리케이션을 간편하게 배포하고 관리할 수 있습니다. 그리고 컨테이너화된 워크로드의 가용성, 확장성, 유연성도 개선할 수 있습니다. 연속 빌드 및 배포 기능이 제공되는 Azure DevOps에서는 AKS 작업을 더욱 원활하게 진행할 수 있습니다. 
 
 이 랩에서는 Azure DevOps를 사용해 컨테이너화된 ASP.NET Core 웹 애플리케이션 **MyHealthClinic**(MHC)을 AKS 클러스터에 배포합니다. 
 

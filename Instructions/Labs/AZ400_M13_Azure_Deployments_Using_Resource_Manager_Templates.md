@@ -1,7 +1,7 @@
 ﻿---
 lab:
     title: '랩: Resource Manager 템플릿를 사용하여 Azure 배포'
-    az400Module: '모듈 13: Azure Tools를 사용하여 인프라 및 구성 관리'
+    module: '모듈 13: Azure Tools를 사용하여 인프라 및 구성 관리'
 ---
 
 # 랩: Resource Manager 템플릿를 사용하여 Azure 배포

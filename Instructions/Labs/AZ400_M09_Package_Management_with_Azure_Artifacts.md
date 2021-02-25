@@ -1,7 +1,7 @@
 ﻿---
 lab:
     title: '랩: Azure Artifacts로 패키지 관리'
-    az400Module: '모듈 9: 종속성 관리 전략 디자인 및 구현'
+    module: '모듈 9: 종속성 관리 전략 디자인 및 구현'
 ---
 
 # 랩: Azure Artifacts로 패키지 관리
@@ -247,7 +247,7 @@ Azure Artifacts를 활용하면 Azure DevOps에서 NuGet, npm 및 Maven 패키�
     ```
     ./nuget.exe pack PartsUnlimited.Shared.csproj
     ```
-1.  **관리자**로부터:** Windows PowerShell** 창에서 다음 명령을 실행하여 업데이트된 패키지를 게시합니다. 
+1.  **관리자 로부터: Windows PowerShell** 창에서 다음 명령을 실행하여 업데이트된 패키지를 게시합니다. 
 
     > **참고**: 패키지 버전 업데이트를 반영하여 게시된 아티팩트 버전 번호가 변경됩니다.
 

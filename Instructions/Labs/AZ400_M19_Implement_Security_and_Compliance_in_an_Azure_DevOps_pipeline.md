@@ -1,7 +1,7 @@
 ﻿---
 lab:
     title: '랩: Azure DevOps 파이프라인에서 보안 및 규정 준수 구현'
-    az400Module: '모듈 19: DevOps 프로젝트에서 보안 구현'
+    module: '모듈 19: DevOps 프로젝트에서 보안 구현'
 ---
 
 # 랩: Azure DevOps 파이프라인에서 보안 및 규정 준수 구현
