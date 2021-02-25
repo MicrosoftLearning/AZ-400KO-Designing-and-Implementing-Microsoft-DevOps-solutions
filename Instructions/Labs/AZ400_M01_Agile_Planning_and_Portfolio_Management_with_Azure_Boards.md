@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Boards를 사용하여 Agile 계획 및 포트폴리오 관리'
     module: '모듈 1: DevOps 계획'
