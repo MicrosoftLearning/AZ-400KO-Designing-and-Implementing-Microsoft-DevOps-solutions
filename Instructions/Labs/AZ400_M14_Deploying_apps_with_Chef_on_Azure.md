@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure에서 Chef를 사용하여 앱 배포'
     module: '모듈 14: Azure에서 사용 가능한 타사 IaC(코드형 인프라) 도구'
