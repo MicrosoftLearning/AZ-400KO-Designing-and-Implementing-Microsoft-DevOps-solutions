@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Pipelines를 통한 연속 통합 지원'
     module: '모듈 6: Azure Pipelines를 사용하여 연속 통합 구현'
