@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Key Vault와 Azure DevOps 통합'
     module: '모듈 7: 애플리케이션 구성 및 비밀 관리'
