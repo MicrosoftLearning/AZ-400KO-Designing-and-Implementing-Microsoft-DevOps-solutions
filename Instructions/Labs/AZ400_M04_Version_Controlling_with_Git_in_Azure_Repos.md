@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Azure Repos에서 Git를 사용하여 버전 제어'
     module: '모듈 4: Enterprise DevOps용으로 Git 확장'
