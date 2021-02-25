@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: LaunchDarkly 및 Azure DevOps를 통한 기능 플래그 관리'
     module: '모듈 12: 적절한 배포 패턴 구현'
